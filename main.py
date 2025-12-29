@@ -75,6 +75,6 @@ for idx in sample_indices:
     actual = y_test.iloc[idx]
     predicted = y_pred[idx]
     probability = y_pred_proba[idx]
-    print(f"Actual: {'At Risk' if actual == 1 else 'Not At Risk'}, "
-          f"Predicted: {'At Risk' if predicted == 1 else 'Not At Risk'}, "
-          f"Risk Probability: {probability:.2%}")
+    print(f"Actual: {'At Risk' if actual == 1 else 'Not At Risk'}, \n"
+          f"Predicted: {'At Risk' if predicted == 1 else 'Not At Risk'}, \n"
+          f"Risk Probability: {probability:.2%}\n----")

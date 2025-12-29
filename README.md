@@ -28,7 +28,7 @@ pip install scikit-learn pandas numpy
 ## Usage
 
 ```
-python poverty_prediction.py
+python main.py
 ```
 
 ## Output
